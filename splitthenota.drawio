@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Sida-1" id="5Q9jyhPz3eoA3dqXUvgz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.75" y="150" as="targetPoint" />
+            <mxPoint x="413.75" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-3" value="Split the nota" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsRlQDnwz60ZfrbxX_Cp-8" target="UsRlQDnwz60ZfrbxX_Cp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-8" value="sum=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.75" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsRlQDnwz60ZfrbxX_Cp-9" target="UsRlQDnwz60ZfrbxX_Cp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-9" value="Hur mycket kostade kalaset=?&lt;div&gt;(input) = sum&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="303.75" y="290" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsRlQDnwz60ZfrbxX_Cp-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.75" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-11" value="Hur många är ni?&lt;div&gt;(input) = antalVänner&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323.75" y="430" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="UsRlQDnwz60ZfrbxX_Cp-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.75" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-13" value="&lt;div&gt;&lt;div&gt;Ange procent i dricks i decimalform&lt;/div&gt;&lt;div&gt;(input) = dricksIProcent&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296.25" y="570" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsRlQDnwz60ZfrbxX_Cp-15" target="UsRlQDnwz60ZfrbxX_Cp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-15" value="dricks = sum * dricksIProcent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348.75" y="680" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsRlQDnwz60ZfrbxX_Cp-17" target="UsRlQDnwz60ZfrbxX_Cp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-17" value="SumDricks = dricks + sum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.75" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsRlQDnwz60ZfrbxX_Cp-19" target="UsRlQDnwz60ZfrbxX_Cp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-19" value="KostnadPerVän = sumDricks / antalVänner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.75" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsRlQDnwz60ZfrbxX_Cp-21" target="UsRlQDnwz60ZfrbxX_Cp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-21" value="antalVänner = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.75" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsRlQDnwz60ZfrbxX_Cp-24" value="Hoppas maten smakade!&lt;div&gt;&amp;nbsp;&quot;&quot;KostnadPerVän&quot;&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp;blev det per person!&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1030" width="237.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

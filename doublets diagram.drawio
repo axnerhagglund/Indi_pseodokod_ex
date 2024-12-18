@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Sida-1" id="hMlhOMM-AFKcHe_M0dgj">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wyQrkb14em5uQLjIqt4s-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-1" target="wyQrkb14em5uQLjIqt4s-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-1" value="Doublets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-17" target="wyQrkb14em5uQLjIqt4s-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-17" value="startord = EYE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-18" target="6-3KNQaqRe4toxep9fmD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-18" value="slutord = LID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-20" target="wyQrkb14em5uQLjIqt4s-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-20" value="ordbok = [BYE, LIE, LID, RYE, LYE, AYE]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-25" target="wyQrkb14em5uQLjIqt4s-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-25" value="OUTPUT: startord är: EYE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="500" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-27" target="wyQrkb14em5uQLjIqt4s-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-27" value="OUTPUT: &quot;Slutordet är LID.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="580" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-29" target="wyQrkb14em5uQLjIqt4s-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-29" value="INPUT från användaren" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-36" value="NEJ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-31" target="wyQrkb14em5uQLjIqt4s-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-31" target="wyQrkb14em5uQLjIqt4s-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-40" value="JA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyQrkb14em5uQLjIqt4s-39">
+          <mxGeometry x="0.0311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-31" value="kontrollera ord&amp;nbsp;&lt;div&gt;är ordet i ordboken?&lt;/div&gt;&lt;div&gt;skiljer det sig med en bokstav från startordet?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="800" width="220" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-35" target="wyQrkb14em5uQLjIqt4s-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="700" />
+              <mxPoint x="305" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-35" value="Nu gick något snett!&amp;nbsp;&lt;div&gt;Se till att byta bara ett ord.&lt;div&gt;ge mig ett nytt ord&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-38" target="wyQrkb14em5uQLjIqt4s-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-38" value="gör om startord till nuvarande ord.&lt;div&gt;Öka antal gissningar&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1030" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-41" target="6-3KNQaqRe4toxep9fmD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-3" value="NEJ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="6-3KNQaqRe4toxep9fmD-2">
+          <mxGeometry x="-0.0095" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyQrkb14em5uQLjIqt4s-41" target="6-3KNQaqRe4toxep9fmD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-9" value="JA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="6-3KNQaqRe4toxep9fmD-8">
+          <mxGeometry x="-0.0556" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyQrkb14em5uQLjIqt4s-41" value="är nuvarande ord = slutord?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1200" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-3KNQaqRe4toxep9fmD-1" target="wyQrkb14em5uQLjIqt4s-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-1" value="användare fortsätter spela" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-5" value="OUTPUT: Grattis du nådde slutordet &quot;LID&quot; på antalGissningar drag!" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1450" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-3KNQaqRe4toxep9fmD-6" target="wyQrkb14em5uQLjIqt4s-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-3KNQaqRe4toxep9fmD-6" value="antalGissning = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
