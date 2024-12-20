@@ -1,6 +1,9 @@
 // G-Version - Split the Nota
 // Skriv din pseudokod innanför nedanstående kommentarsblock
 /*
+SET variabel dricks = 0
+SET variabel kostnadPerVän = 0
+SET variabel sumDricks = 0
 sum = INPUT("Hur mycket kostade kalaset?")
 antalVänner = INPUT("Hur många är ni?") 
 dricksIProcent = INPUT("Ange dricks i procent i decimalform (tex 0.20 för 20 % i dricks)")
