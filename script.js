@@ -27,7 +27,8 @@ function play();
     SET variabel ordbok = [EYE, BYE, LIE, LYE, LID, RYE]; // Innehåller ALLA ord i det engelska språket
     SET variabel startOrd till "EYE";
     SET variabel slutOrd till "LID";
-    SET nuvarandeOrd = startOrd;
+    SET variabel nuvarandeOrd = startOrd;
+    SET variabel antalGissningar = 0
     
     OUTPUT: Nuvarande ord: "EYE";
     OUTPUT: Slutord: "LID";
@@ -51,10 +52,11 @@ function play();
 
         *om båda kontroller är passade, uppdatera nuvarande ord
         SET nuvarandeOrd = nyttOrd;
-        OUTPUT "Snyggt! Nuvarande ord är: " + nuvarandeOrd;
+        SET antalGissningar = antalGissningar + 1;
+        OUTPUT "Snyggt! Nuvarande ord är: " + nuvarandeOrd + . "antal gissningar hittills:" + antalGissningar +";
     end WHILE
 
-     OUTPUT "Grattis! Du klarade till slutordet '" + slutOrd + "'!";
+     OUTPUT "Grattis! Du klarade till slutordet '" + slutOrd + "'!" + " på " + antalGissningar + "gissningar";
 end function
 
 
@@ -62,13 +64,13 @@ function isWordInWordBook(nyttOrd, ordbok)
     IF nyttOrd IN ordbok THEN
         returnera SANT;
     ELSE
-        returnera FAlSKT;
+        returnera FALSKT;
     END IF
 end function
     
 function isOneLetterApart(ord, nyttOrd)
 IF lenght(ord) inte lika med lenght(nyttOrd) 
-        returnera FALSE;
+        returnera FALSKT;
 
     SET variabel diffCount till 0;
 
